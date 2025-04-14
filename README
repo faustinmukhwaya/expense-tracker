@@ -1,0 +1,45 @@
+#TITLE
+
+Expense Tracker 
+A simple web app to track your income and expenses, helping you stay on top of your finances.
+
+#FEATURES 
+
+Add, edit, and delete transactions.
+Categorize spending (e.g., Food, Salary).
+View total income, expenses, and balance.
+Responsive design for all devices.
+Optional charts for spending insights.
+
+#GETTING STARTED
+
+Prerequisites
+Node.js (v16+)
+npm or yarn
+Git
+
+#INSTALLATION 
+1. CLONE THE APP 
+
+git clone https://github.com/your-username/expense-tracker.git
+cd expense-tracker
+
+2. INITIAL DEPENDANCIES 
+
+npm install
+
+3. START THE APP 
+
+npm run dev
+
+PROJECT STRUCTURE 
+
+expense-tracker/
+├── public/         # Static assets
+├── src/            # Source code
+│   ├── components/ # UI components
+│   ├── pages/      # Page components
+│   ├── App.tsx     # Main app
+├── package.json    # Dependencies
+├── README.md       # Docs
+
